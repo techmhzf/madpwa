@@ -1,0 +1,63 @@
+EXPERIMENT 6: FIRESTORE CRUD – VIVA QUESTIONS
+
+1. What is Firebase Cloud Firestore?
+   A NoSQL cloud database used to store and sync data in real-time. 
+
+2. What is NoSQL database?
+   A database without tables, using collections and documents.
+
+3. What is Collection in Firestore?
+   A group of documents.
+
+4. What is Document?
+   A record containing fields (data).
+
+5. What are Fields?
+   Key-value pairs storing data.
+
+6. What is CRUD?
+   Create, Read, Update, Delete operations.
+
+7. What is StreamBuilder?
+   A widget that listens to real-time data changes.
+
+8. Why StreamBuilder is used?
+   To automatically update UI when data changes.
+
+9. What is firebase_core?
+   Used to initialize Firebase.
+
+10. What is cloud_firestore?
+    Package used to interact with Firestore.
+
+11. How data is stored in Firestore?
+    Collection → Document → Fields
+
+12. What is real-time synchronization?
+    Data updates instantly without refresh.
+
+13. What is add operation?
+    Adds new data to Firestore.
+
+14. What is update operation?
+    Modifies existing data.
+
+15. What is delete operation?
+    Removes data from database.
+
+16. What is read operation?
+    Fetches data from database.
+
+17. What is advantage of Firestore?
+    Fast, scalable, real-time updates.
+
+18. What is offline support?
+    App works even without internet.
+
+19. What is UI update mechanism?
+    Using StreamBuilder.
+
+20. Output of experiment?
+    A real-time notes app with CRUD operations.
+
+END OF VIVA
