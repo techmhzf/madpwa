@@ -1,0 +1,64 @@
+EXPERIMENT 5: NAVIGATION, ROUTING AND GESTURES – VIVA (ADVANCED)
+
+1. What is Navigation in Flutter?
+   Navigation is used to move between screens using Navigator class.
+
+2. What is navigation stack?
+   It works like a stack (LIFO). New screens are pushed and removed using pop().
+
+3. What is Routing?
+   Routing defines how screens are connected in an app.
+
+4. What is Named Routing?
+   Navigation using predefined route names for better structure.
+
+5. Difference between push() and pushNamed()?
+   push → direct widget
+   pushNamed → uses route name
+
+6. What is GestureDetector?
+   A widget used to detect user interactions.
+
+7. What is Dismissible widget?
+   Used for swipe gestures like delete or complete.
+
+8. What is onTap?
+   Triggered when user taps once.
+
+9. What is onLongPress?
+   Triggered when user presses and holds.
+
+10. What is onPan?
+    Used for drag/swipe gestures.
+
+11. Why gestures are important?
+    They improve user interaction and UX.
+
+12. What is StatefulWidget?
+    Used when UI changes dynamically.
+
+13. Why used StatefulWidget in this app?
+    Because task list updates dynamically.
+
+14. What is ListView.builder?
+    Efficient way to display dynamic lists.
+
+15. What is model class?
+    A class used to represent data structure (Task).
+
+16. What is passing data between screens?
+    Sending data using Navigator or routes.
+
+17. What is ModalRoute?
+    Used to receive arguments in next screen.
+
+18. What is real-world use of this app?
+    Task management / To-Do applications.
+
+19. What is UI/UX importance?
+    Good UI improves user experience.
+
+20. What is output of experiment?
+    A functional task manager app with navigation and gestures.
+
+END OF VIVA
