@@ -1,0 +1,64 @@
+EXPERIMENT 1: FLUTTER HELLO WORLD APP – VIVA QUESTIONS & ANSWERS
+
+1. What is Flutter?
+   Flutter is an open-source UI toolkit developed by Google to build cross-platform applications using a single codebase.
+
+2. Which programming language is used in Flutter?
+   Flutter uses Dart programming language.
+
+3. What is Dart?
+   Dart is a client-optimized programming language used for building fast apps for mobile, web, and desktop.
+
+4. What is a Widget in Flutter?
+   A widget is the basic building block of a Flutter app. Everything in Flutter is a widget (UI elements).
+
+5. What is MaterialApp?
+   MaterialApp is a widget that provides basic structure and design for the app following Material Design principles.
+
+6. What is Scaffold?
+   Scaffold provides a basic visual layout structure like AppBar, body, floating button, etc.
+
+7. What is StatelessWidget?
+   StatelessWidget is a widget that does not change its state during runtime.
+
+8. What is the difference between StatelessWidget and StatefulWidget?
+   StatelessWidget: UI does not change.
+   StatefulWidget: UI can change dynamically based on user interaction.
+
+9. What is main() function in Flutter?
+   main() is the entry point of the Flutter application.
+
+10. What does runApp() do?
+    runApp() starts the Flutter application and loads the given widget.
+
+11. What is the use of Center widget?
+    Center widget is used to align its child widget at the center of the screen.
+
+12. What is Text widget?
+    Text widget is used to display text on the screen.
+
+13. What is AppBar?
+    AppBar is the top bar of the application used to display title and actions.
+
+14. What is Hot Reload?
+    Hot Reload allows developers to see changes instantly without restarting the app.
+
+15. What platforms does Flutter support?
+    Android, iOS, Web, Windows, macOS, Linux.
+
+16. What is cross-platform development?
+    Writing one codebase that works on multiple platforms.
+
+17. What is the output of this experiment?
+    A simple app displaying "Hello World" at the center of the screen.
+
+18. Why Flutter is used?
+    Because it is fast, easy to use, and supports multiple platforms with a single codebase.
+
+19. What is pubspec.yaml?
+    It is a configuration file used to manage dependencies in a Flutter project.
+
+20. What is an Emulator?
+    An emulator is a virtual device used to run and test mobile applications on a computer.
+
+END OF VIVA
