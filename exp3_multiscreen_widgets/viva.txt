@@ -1,0 +1,70 @@
+EXPERIMENT 3: STATEFUL & STATELESS WIDGETS – VIVA QUESTIONS
+
+1. What is Flutter?
+   Flutter is a UI toolkit used to build cross-platform applications.
+
+2. Why use Flutter?
+   Because it provides fast development, single codebase, and rich UI.
+
+3. What is Hot Reload?
+   It updates the app instantly without restarting.
+
+4. What is StatelessWidget?
+   A widget whose UI does not change during runtime.
+
+5. What is StatefulWidget?
+   A widget whose UI changes dynamically using state.
+
+6. What is setState()?
+   It updates UI when state changes.
+
+7. What is a Widget?
+   A basic building block of Flutter UI. 
+
+8. What are Flutter components?
+
+* Dart Framework
+* Flutter Engine
+
+9. What are types of widgets?
+
+* Structural
+* Styling
+* Interactive
+* Input/Output
+
+10. What is Navigator?
+    Navigator is used to move between screens.
+
+11. What is Scaffold?
+    Provides basic UI structure.
+
+12. What is Column?
+    Arranges widgets vertically.
+
+13. What is Row?
+    Arranges widgets horizontally.
+
+14. What is Animation in Flutter?
+    It is used to create smooth UI transitions.
+
+15. What is AnimatedContainer?
+    A widget that automatically animates changes in properties.
+
+16. What is the use of duration in animation?
+    It defines how long animation takes.
+
+17. What is cross-platform?
+    Single app working on multiple platforms.
+
+18. What is the output of this experiment?
+    A multi-screen app with counter and animation.
+
+19. Difference between Stateless and Stateful?
+    Stateless: fixed UI
+    Stateful: dynamic UI
+
+20. What is navigation in Flutter?
+    Switching between screens using Navigator.
+
+END OF VIVA
