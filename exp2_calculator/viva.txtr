@@ -1,0 +1,63 @@
+EXPERIMENT 2: CALCULATOR APP USING FLUTTER – VIVA QUESTIONS & ANSWERS
+
+1. What is Dart?
+   Dart is an object-oriented programming language developed by Google used for building Flutter applications.
+
+2. Why Flutter uses Dart?
+   Because Dart compiles to native code, provides high performance, and supports Hot Reload. 
+
+3. What is a Widget?
+   A widget is a reusable UI component used to build the interface of a Flutter application.
+
+4. What is StatelessWidget?
+   A widget whose UI does not change during runtime.
+
+5. What is StatefulWidget?
+   A widget whose UI can change dynamically using state and setState().
+
+6. What is setState()?
+   setState() updates the UI when data changes.
+
+7. What is the role of build() method?
+   build() defines how the UI looks.
+
+8. What is Scaffold?
+   Scaffold provides the basic app structure like AppBar and body.
+
+9. What is Column widget?
+   Column arranges widgets vertically.
+
+10. What is Row widget?
+    Row arranges widgets horizontally.
+
+11. What is Expanded widget?
+    Expanded is used to give equal space to widgets.
+
+12. What is the function of ElevatedButton?
+    It creates clickable buttons in Flutter.
+
+13. What is the purpose of display variable?
+    It stores and shows the calculator output.
+
+14. What happens when '=' is pressed?
+    The calculation is performed and result is displayed.
+
+15. What is operator variable used for?
+    It stores the selected arithmetic operation.
+
+16. What is num1 and num2?
+    They store input numbers for calculation.
+
+17. What is Hot Reload?
+    It updates UI instantly without restarting the app.
+
+18. What is the output of this experiment?
+    A working calculator app performing basic operations.
+
+19. Why StatefulWidget is used here?
+    Because the UI changes based on user input.
+
+20. What platforms Flutter supports?
+    Android, iOS, Web, Windows, macOS, Linux.
+
+END OF VIVA
