@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f0f0f" />
+  <meta name="description" content="KART — A blazing-fast Mini E-Commerce PWA" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="KART" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+  <title>KART — Mini E-Commerce PWA</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Install Banner -->
+  <div id="install-banner" class="install-banner hidden">
+    <div class="install-banner-inner">
+      <span class="install-icon">📲</span>
+      <div>
+        <strong>Install KART</strong>
+        <p>Add to home screen for the best experience</p>
+      </div>
+      <button id="install-btn" class="btn-install">Install</button>
+      <button id="dismiss-install" class="btn-dismiss">✕</button>
+    </div>
+  </div>
+
+  <!-- Offline Banner -->
+  <div id="offline-banner" class="offline-banner hidden">
+    <span>⚡ You're offline — browsing cached content</span>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">KART</div>
+      <nav class="nav-tabs">
+        <button class="nav-tab active" data-view="shop">Shop</button>
+        <button class="nav-tab" data-view="cart">Cart <span id="cart-badge" class="badge hidden">0</span></button>
+        <button class="nav-tab" data-view="orders">Orders</button>
+      </nav>
+      <div class="header-right">
+        <span id="pwa-status" class="pwa-badge">PWA</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <!-- SHOP VIEW -->
+    <section id="view-shop" class="view active">
+      <div class="hero">
+        <div class="hero-text">
+          <p class="hero-sub">New Season. New Drops.</p>
+          <h1 class="hero-title">SHOP<br/><em>THE LOOK</em></h1>
+          <p class="hero-desc">A PWA experiment — offline capable, installable, lightning fast.</p>
+        </div>
+        <div class="hero-art">
+          <div class="art-circle"></div>
+          <div class="art-tag">OFFLINE READY ✓</div>
+        </div>
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="electronics">Electronics</button>
+        <button class="filter-btn" data-cat="fashion">Fashion</button>
+        <button class="filter-btn" data-cat="home">Home</button>
+        <button class="filter-btn" data-cat="sports">Sports</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid"></div>
+    </section>
+
+    <!-- CART VIEW -->
+    <section id="view-cart" class="view">
+      <div class="view-header">
+        <h2 class="view-title">Your Cart</h2>
+        <button id="clear-cart" class="btn-ghost">Clear All</button>
+      </div>
+      <div id="cart-items" class="cart-list"></div>
+      <div id="cart-empty" class="empty-state hidden">
+        <div class="empty-icon">🛒</div>
+        <h3>Your cart is empty</h3>
+        <p>Add some products to get started</p>
+        <button class="btn-primary" data-nav="shop">Browse Products</button>
+      </div>
+      <div id="cart-summary" class="cart-summary hidden">
+        <div class="summary-row"><span>Subtotal</span><span id="subtotal">₹0</span></div>
+        <div class="summary-row"><span>Delivery</span><span class="free-tag">FREE</span></div>
+        <div class="summary-row total"><span>Total</span><span id="total">₹0</span></div>
+        <button class="btn-primary btn-full" id="checkout-btn">Checkout</button>
+      </div>
+    </section>
+
+    <!-- ORDERS VIEW -->
+    <section id="view-orders" class="view">
+      <div class="view-header">
+        <h2 class="view-title">Orders</h2>
+      </div>
+      <div id="orders-list" class="orders-list"></div>
+      <div id="orders-empty" class="empty-state hidden">
+        <div class="empty-icon">📦</div>
+        <h3>No orders yet</h3>
+        <p>Your order history will appear here</p>
+        <button class="btn-primary" data-nav="shop">Start Shopping</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- Checkout Modal -->
+  <div id="checkout-modal" class="modal-overlay hidden">
+    <div class="modal">
+      <button class="modal-close" id="close-modal">✕</button>
+      <div class="modal-icon">🎉</div>
+      <h2>Order Placed!</h2>
+      <p>Your order has been confirmed and will be delivered within 3-5 business days.</p>
+      <p id="order-id-display" class="order-id"></p>
+      <button class="btn-primary" id="continue-shopping">Continue Shopping</button>
+    </div>
+  </div>
+
+  <!-- Product Quick View Modal -->
+  <div id="product-modal" class="modal-overlay hidden">
+    <div class="modal modal-product">
+      <button class="modal-close" id="close-product-modal">✕</button>
+      <div id="product-modal-content"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
