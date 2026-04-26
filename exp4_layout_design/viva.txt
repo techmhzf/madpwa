@@ -1,0 +1,64 @@
+EXPERIMENT 4: FLUTTER LAYOUT WIDGETS – VIVA QUESTIONS
+
+1. What is a Layout in Flutter?
+   Layout refers to how UI elements are arranged on the screen.
+
+2. Why layout widgets are needed?
+   They help organize UI elements in a structured and responsive way. 
+
+3. What is Column widget?
+   Column arranges widgets vertically.
+
+4. What is Row widget?
+   Row arranges widgets horizontally.
+
+5. What is Container widget?
+   Container is used to design UI with color, size, padding, and alignment.
+
+6. Why Container is important?
+   It helps in styling and positioning widgets.
+
+7. What is Padding widget?
+   Padding adds space around a widget.
+
+8. What is Expanded widget?
+   Expanded makes widgets share available space equally.
+
+9. What is Scaffold?
+   Scaffold provides basic structure like AppBar and body.
+
+10. What is AppBar?
+    Top bar of the application.
+
+11. What is main purpose of layout widgets?
+    To create structured and responsive UI.
+
+12. What is alignment in Container?
+    It controls position of child inside container.
+
+13. Difference between Row and Column?
+    Row → horizontal
+    Column → vertical
+
+14. What is spacing?
+    Space between widgets.
+
+15. What is responsive design?
+    UI that adjusts according to screen size.
+
+16. What is widget tree?
+    Structure of widgets in Flutter app.
+
+17. What is build() method?
+    It builds UI layout.
+
+18. What is the output of this experiment?
+    A home screen UI using layout widgets.
+
+19. What is cross-platform UI?
+    Same UI works on multiple platforms.
+
+20. Why Flutter UI is fast?
+    Because it uses its own rendering engine.
+
+END OF VIVA
